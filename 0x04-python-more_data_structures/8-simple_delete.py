@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-def print_sorted_dictionary(a_dictionary):
-    [print("{}: {}".format(k, a_dictionary[k])) for k in sorted(a_dictionary)]
+def simple_delete(a_dictionary, key=""):
+    if a_dictionary.get(key) is not None:
+        del a_dictionary[key]
+    return (a_dictionary)
