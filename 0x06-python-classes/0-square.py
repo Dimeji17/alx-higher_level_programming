@@ -2,6 +2,7 @@
 
 """square class""
 
+
 class Square:
 
     """ no object in the class""
